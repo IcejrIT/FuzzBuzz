@@ -1,0 +1,38 @@
+{
+    "name": "laravel/fizzbuzz",
+    "type": "project",
+    "description": "Zadanie rekrutacyjne - Jakub Daniel",
+    "keywords": ["laravel", "framework"],
+    "license": "MIT",
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^10.10",
+        "nunomaduro/collision": "^7.10"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.6",
+        "phpunit/phpunit": "^10.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Tests\\": "tests/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "php-http/discovery": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
